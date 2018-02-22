@@ -1,0 +1,57 @@
+body {
+  color: #fff; }
+
+#hero {
+  background: url("/assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: black !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    @media (max-width: 34em) {
+      .navbar .nav-item .nav-link {
+        font-weight: normal;
+        color: #fff !important; } }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+.hero-img {
+  width: 80%; }
+
+.feature-wrapper {
+  color: #000; }
+
+#join-container {
+  background: url("/assets/bg.jpg") no-repeat;
+  background-size: cover; }
+  #join-container h2 {
+    letter-spacing: 4px;
+    font-weight: bold; }
+  #join-container h4 {
+    color: gray; }
+  #join-container .form-control {
+    background: #111111;
+    border: 3px solid #2F2F2F;
+    padding: 10px; }
+  #join-container .btn {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer; }
